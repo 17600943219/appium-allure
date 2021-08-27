@@ -1,0 +1,159 @@
+{
+  "uid" : "8bb94c08b0df5642",
+  "name" : "test_002[search003-3]",
+  "fullName" : "Script.Test_Search.Test_Search#test_002",
+  "historyId" : "bd08d0e91346fe1a45d63ada8a1f8c5c",
+  "time" : {
+    "start" : 1629896745161,
+    "stop" : 1629896751571,
+    "duration" : 6410
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "atest_001",
+    "time" : {
+      "start" : 1629896726107,
+      "stop" : 1629896726442,
+      "duration" : 335
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "xunit_setup_class_fixture_Test_Search",
+    "time" : {
+      "start" : 1629896712946,
+      "stop" : 1629896726106,
+      "duration" : 13160
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试步骤001",
+      "time" : {
+        "start" : 1629896745161,
+        "stop" : 1629896751571,
+        "duration" : 6410
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c69372739fc7ff9a",
+        "name" : "search003",
+        "source" : "c69372739fc7ff9a.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ {
+        "name" : "case_num",
+        "value" : "'search003'"
+      }, {
+        "name" : "text",
+        "value" : "3"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Search::0",
+    "time" : {
+      "start" : 1629896751571,
+      "stop" : 1629896753091,
+      "duration" : 1520
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('atest_001')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Script"
+  }, {
+    "name" : "suite",
+    "value" : "Test_Search"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Search"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-3A6ILT37"
+  }, {
+    "name" : "thread",
+    "value" : "2420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Script.Test_Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_num",
+    "value" : "'search003'"
+  }, {
+    "name" : "text",
+    "value" : "3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "48516bbc82a27668",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'E:\\\\android-sdk-windows\\\\platform-tools\\\\adb.exe -P 5037 -s SLY6R16A12001046 shell ime set io.appium.settings/.UnicodeIME' exited with code 1'; Stderr: 'adb.exe: device 'SLY6R16A12001046' not found'; Code: '1'",
+      "time" : {
+        "start" : 1629896699955,
+        "stop" : 1629896699955,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('atest_001')" ]
+  },
+  "source" : "8bb94c08b0df5642.json",
+  "parameterValues" : [ "'search003'", "3" ]
+}
