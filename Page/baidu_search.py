@@ -14,6 +14,9 @@ class Search(Base):
         self.click_element(Page.linear_layout)
 
     def input_search(self, text):
+        '''
+        输入搜索字段
+        '''
         self.click_element(Page.search_input)
         self.input_element(Page.search_input, text)
 
