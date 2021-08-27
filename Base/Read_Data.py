@@ -3,6 +3,11 @@ import yaml
 
 
 def read_test_data(file_name):
+    '''
+    读取yaml文件
+    :param file_name:
+    :return:
+    '''
     file_path = os.getcwd() + os.sep + 'Data' + os.sep + file_name + '.yaml'
     # file_path = os.path.abspath('..') + os.sep + 'Data' + os.sep + file_name + '.yaml'
     with open(file_path, 'r') as f:

@@ -2,6 +2,9 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 
 class Base(object):
+    '''
+    封装定位元素及操作元素方法
+    '''
     def __init__(self, driver):
         self.driver = driver
 
